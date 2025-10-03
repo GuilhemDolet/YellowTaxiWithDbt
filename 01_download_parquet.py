@@ -23,4 +23,4 @@ for month in months_to_collect_2024:
         for chunk in response.iter_content(chunk_size=8192):
             f.write(chunk)
 
-    print(f"✅ Fichier téléchargé : {dest_path}")
+    print(f"Fichier téléchargé : {dest_path}")
